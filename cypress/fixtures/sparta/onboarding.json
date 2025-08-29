@@ -1,0 +1,50 @@
+    {
+
+    "Url":"https://www.vida.com/clients/onboarding/step/account-creation",
+    "common":{
+      "organization":"Vida",
+      "inviteCode":"VIDATEST",
+      "successMsg":"Successfully created scheduled call",
+      "cancelMsg":"Successfully canceled the consultation",
+      "firstName":"Test",
+      "lastName":"User",
+      "phoneNumber":"3453417177",
+      "language":"English",
+      "monthDob":"8",
+      "dayDob":"4",
+      "yearDob":"1989",
+      "gender":"Male",
+      "emailPrefix":"qa-automation+",
+      "password":"P@ssword123!",
+      "heightInFeet":"7",
+      "heightInInch":"1",
+      "weightInLbs":"120",
+      "physicalConditions":[
+         "Anxiety",
+         "High cholesterol",
+         "Smoking/nicotine use",
+         "Other medical",
+         "Back pain"
+      ],
+      "rateHealth":"Very Good",
+      "phq2q1":"Several days",
+      "phq2q2":"More than half the days",
+      "healthGoals":"Eat better",
+      "selectProgram":"Eating Better",
+      "state":"California",
+      "coach": "Coach Ban",
+      "noteText":"Sample test note",
+      "howOftenBothered":"Not at all",
+      "weekdayAvailability":"6pm-10pm",
+      "weekendAvailability":"2pm-6pm",
+      "timezone":"Mountain Time (Denver)",
+      "coachingStyle":[
+         "Challenger",
+         "Listener"
+      ]
+    },
+    "delphi":{
+        "delphiEmail": "ban+test2@vida.com",
+        "delphiPassword": "Vida123#"
+    }
+   }

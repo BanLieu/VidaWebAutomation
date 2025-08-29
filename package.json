@@ -1,0 +1,22 @@
+{
+  "name": "vidawebautomation",
+  "version": "1.0.0",
+  "description": "Web Automation",
+  "main": "cypress.config.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Ban lieu",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^14.3.2",
+    "@bahmutov/cypress-esbuild-preprocessor": "^latest",
+    "@badeball/cypress-cucumber-preprocessor": "^latest"
+  },
+  "cypress-cucumber-preprocessor": {
+     "nonGlobalStepDefinition": true,
+     "stepDefinitions": "cypress/e2e/feature/**/*.js",
+     "filterSpecs": true,
+    "omitFiltered": true
+  }
+}
